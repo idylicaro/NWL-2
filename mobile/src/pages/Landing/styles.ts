@@ -5,6 +5,7 @@ const styles = StyleSheet.create({
     flex: 1,
     backgroundColor: '#8257E5',
     justifyContent: "center",
+    padding:40
   },
   banner: {
     width :'100%',
@@ -17,7 +18,6 @@ const styles = StyleSheet.create({
     fontSize: 20,
     lineHeight:30,
     marginTop: 80,
-    marginLeft:20
   },
   titleBold: {
     fontFamily: 'Poppins_600SemiBold'
@@ -52,7 +52,7 @@ const styles = StyleSheet.create({
     fontSize:12,
     lineHeight:20,
     maxHeight:140,
-    margin:40,
+    marginTop:20,
   }
 })
 
